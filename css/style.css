@@ -1,0 +1,15 @@
+label {
+    /* no elemento label do input*/
+    color: red;
+    text-shadow: 4px -3px 2px #800034;
+}
+
+#name {
+    /* no id do input*/
+    color: red
+}
+
+.btn {
+    /* na class do button*/
+    box-shadow: 5px 4px 2px green;
+}

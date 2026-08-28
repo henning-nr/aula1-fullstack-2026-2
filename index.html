@@ -1,11 +1,21 @@
-<input type="text">
-<button onclick="mostrar()">Mostrar</button>
+<!DOCTYPE html>
+<html lang="en">
 
-<script>
-    function mostrar() {
-        valor = document.querySelector("input").value 
-        document.querySelector("input").style = "color:red" 
-        alert(valor)
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro CRUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-</script>
+<body>
+    <label for="name">Nome: </label>
+    <input type="text" id="name">
+    <button id="btnSalvar" class="btn">Salvar</button>
+    <button id="btnLer" class="btn">Ler</button><br>
+    Nome<p></p>
+</body>
+<script src="js/script.js"></script>
+
+
+</html>
